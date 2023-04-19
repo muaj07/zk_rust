@@ -1,6 +1,7 @@
 #ifndef MERKLECOMMITMENT_HPP__
 #define MERKLECOMMITMENT_HPP__
 
+#include <string>
 #include <vector>
 #include <array>
 #include <cstring>

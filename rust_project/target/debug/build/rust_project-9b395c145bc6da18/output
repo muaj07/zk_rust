@@ -1,0 +1,134 @@
+cargo:CXXBRIDGE_PREFIX=rust_project
+cargo:CXXBRIDGE_DIR0=/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/include
+cargo:CXXBRIDGE_DIR1=/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/crate
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-unknown-linux-gnu
+CXX_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXX_x86_64_unknown_linux_gnu
+CXX_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-unknown-linux-gnu
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_unknown_linux_gnu
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/include" "-I" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/crate" "-I" "src" "-I" "../libstark/src/languages/Bair/" "-Wall" "-Wextra" "-std=c++14" "-o" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/a9971d4f714682b0-lib.rs.o" "-c" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/sources/rust_project/src/lib.rs.cc"
+cargo:warning=In file included from src/../../libstark/src/languages/Bair/BairWitness.hpp:4,
+cargo:warning=                 from src/bair_witness_bridge.h:2,
+cargo:warning=                 from /mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/sources/rust_project/src/lib.rs.cc:1:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator/=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:102:12: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  102 |     x = x /b; return x;
+cargo:warning=      |            ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator+=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:114:11: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  114 |     x = x+b; return x;
+cargo:warning=      |           ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator-=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:124:13: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  124 |     x = x - b; return x;
+cargo:warning=      |             ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator*=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:136:10: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  136 |     x= x*b; return x;
+cargo:warning=      |          ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/include" "-I" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/cxxbridge/crate" "-I" "src" "-I" "../libstark/src/languages/Bair/" "-Wall" "-Wextra" "-std=c++14" "-o" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/../libstark/src/languages/Bair/BairWitness.o" "-c" "../libstark/src/languages/Bair/BairWitness.cpp"
+cargo:warning=In file included from ../libstark/src/languages/Bair/BairWitness.hpp:4,
+cargo:warning=                 from ../libstark/src/languages/Bair/BairWitness.cpp:1:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator/=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:102:12: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  102 |     x = x /b; return x;
+cargo:warning=      |            ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator+=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:114:11: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  114 |     x = x+b; return x;
+cargo:warning=      |           ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator-=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:124:13: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  124 |     x = x - b; return x;
+cargo:warning=      |             ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp: In function ‘Algebra::FieldElement& Algebra::operator*=(Algebra::FieldElement&, const Algebra::FieldElement&)’:
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:136:10: warning: implicitly-declared ‘Algebra::FieldElement& Algebra::FieldElement::operator=(const Algebra::FieldElement&)’ is deprecated [-Wdeprecated-copy]
+cargo:warning=  136 |     x= x*b; return x;
+cargo:warning=      |          ^
+cargo:warning=src/../../algebra/algebralib/headers/algebraLib/FieldElement.hpp:42:9: note: because ‘Algebra::FieldElement’ has user-provided ‘Algebra::FieldElement::FieldElement(const Algebra::FieldElement&)’
+cargo:warning=   42 |         FieldElement(const FieldElement& src) : element_(src.element_){};
+cargo:warning=      |         ^~~~~~~~~~~~
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
+AR_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
+AR_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
+ARFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
+ARFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/libbair_witness.a" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/a9971d4f714682b0-lib.rs.o" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/../libstark/src/languages/Bair/BairWitness.o"
+exit status: 0
+running: "ar" "s" "/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out/libbair_witness.a"
+exit status: 0
+cargo:rustc-link-lib=static=bair_witness
+cargo:rustc-link-search=native=/mnt/c/Users/AjmalMuhammad/Downloads/zk-rust/libSTARK/rust_project/target/debug/build/rust_project-9b395c145bc6da18/out
+cargo:rerun-if-changed=src/lib.rs
+cargo:rerun-if-changed=src/bair_witness_bridge.h

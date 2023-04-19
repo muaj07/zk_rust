@@ -1,8 +1,9 @@
 #ifndef Bair_WITNESS_HPP__
 #define Bair_WITNESS_HPP__
 
-#include <algebraLib/FieldElement.hpp>
-#include "common/langCommon/Sequence.hpp"
+#include "../../algebra/algebralib/headers/algebraLib/FieldElement.hpp"
+#include "../../libstark/src/common/langCommon/Sequence.hpp"
+
 
 #include <memory>
 #include <vector>
