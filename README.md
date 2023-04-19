@@ -1,4 +1,4 @@
-#Rust Project README
+# Rust Project README
 This Rust project is a part of a larger library called libSTARK which is used for building scalable and transparent cryptographic proofs of computation. The specific module contained in this project is the BairWitness module.
 
 ## BairWitness
