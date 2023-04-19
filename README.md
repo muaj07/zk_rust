@@ -1,16 +1,16 @@
-# Rust Project README
-This Rust project is a part of a larger library called 'libSTARK' which is used for building scalable and transparent cryptographic proofs of computation. The specific module contained in this project is the BairWitness module.
+# Rust Project
+This repository contains a Rust project that interacts with the libSTARK library. The libSTARK library is used for constructing scalable, transparent, and post-quantum secure zero-knowledge proofs.
 
-## BairWitness
-The BairWitness module provides an implementation of the Bair Witness scheme which is used in the construction of STARKs (Scalable Transparent ARguments of Knowledge). A STARK is a proof system for computation that is both efficient and highly scalable. It achieves this by using efficient low-degree testing and interpolation techniques.
+The Rust project includes a module named libstark_tests which contains various tests for the libSTARK library. Additionally, the project includes a C++ bridge module bair_witness_bridge which interfaces with the BairWitness class in the libSTARK library.
 
-The BairWitness module provides a Rust implementation of the Bair Witness scheme which can be used in the construction of STARKs. It provides an interface for creating a Bair Witness object, adding polynomial values to the object, and extracting polynomial values from the object.
+The BairWitness class represents the witness for a Boolean arithmetic circuit. The Rust project interacts with this class through the C++ bridge module to generate and verify proofs of the circuit's validity.
 
-## Interacting with other Libraries
-The BairWitness module interacts with other libraries in the libSTARK library. Specifically, it interacts with the algebraLib and languages modules which provide the algebraic and language abstractions used in the construction of STARKs.
+To build and run the Rust project, follow these steps:
 
-The algebraLib module provides an implementation of finite fields and field extensions which are used in the Bair Witness scheme. The languages module provides an implementation of the arithmetic circuit language which is used to specify the computations being proven.
+Clone the repository: git clone https://github.com/muaj07/zk_rust.git
+Change into the rust_project directory: cd zk_rust/rust_project
+Build the project: cargo build
+Run the tests: cargo test
+Note that building the project requires the libSTARK library to be installed on your system. Refer to the libSTARK repository for installation instructions.
 
-Overall, the BairWitness module is just one part of the larger libSTARK library which provides a comprehensive set of tools for constructing STARKs.
-
-
+The Rust project can be integrated into other applications by importing the libstark_tests module and using the BairWitness class through the C++ bridge module.
