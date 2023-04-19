@@ -5,12 +5,22 @@ The Rust project includes a module named libstark_tests which contains various t
 
 The BairWitness class represents the witness for a Boolean arithmetic circuit. The Rust project interacts with this class through the C++ bridge module to generate and verify proofs of the circuit's validity.
 
+## Dependencies
+
+To build and run this project, the following dependencies are required:
+
+- Rust r
+- C++ compiler (GCC or Clang)
+- CMake
+- Git
+
 To build and run the Rust project, follow these steps:
 
-Clone the repository: git clone https://github.com/muaj07/zk_rust.git
-Change into the rust_project directory: cd zk_rust/rust_project
-Build the project: cargo build
-Run the tests: cargo test
-Note that building the project requires the libSTARK library to be installed on your system. Refer to the libSTARK repository for installation instructions.
+- Clone the repository: git clone https://github.com/muaj07/zk_rust.git
+- Change into the rust_project directory: cd zk_rust/rust_project
+- Build the project: cargo build
+- Run the tests: cargo test
+- Note that building the project requires the libSTARK library to be installed on your system. Refer to the libSTARK repository for installation instructions.
 
 The Rust project can be integrated into other applications by importing the libstark_tests module and using the BairWitness class through the C++ bridge module.
+
