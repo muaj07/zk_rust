@@ -9,7 +9,7 @@ The BairWitness class represents the witness for a Boolean arithmetic circuit. T
 
 To build and run this project, the following dependencies are required:
 
-- Rust r
+- Rust 
 - C++ compiler (GCC or Clang)
 - CMake
 - Git
